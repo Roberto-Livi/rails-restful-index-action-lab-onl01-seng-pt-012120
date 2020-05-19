@@ -2,6 +2,6 @@ class StudentsController < ApplicationController
   def index
     @students = Student.all
     
-    redirect '/students'
+    redirect_to '/students'
   end
 end
